@@ -10,3 +10,12 @@ commands:
     - name: native
       description: create a React Native app
       type: boolean
+  - name: ios
+    description: start the iOS app
+    executor: exec/ios
+  - name: android
+    description: start the Android app
+    executor: exec/android
+  - name: api
+    description: start the local API
+    executor: exec/api

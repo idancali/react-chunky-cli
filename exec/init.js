@@ -11,7 +11,7 @@ function createMobileApp(name) {
   logger.info("Initializing mobile app", name)
   generator.createFromTemplate("mobile/default", { name })
   logger.done("↳ Done")
-  logger.info("Installing React Native Chunky")
+  logger.info("Installing React Native Chunky", "(this might take a few minutes)")
   runner.npmInstall("react-native-chunky", name)
 }
 
