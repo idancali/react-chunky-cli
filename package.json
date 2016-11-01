@@ -7,8 +7,8 @@
     "type": "git",
     "url": "git+https://github.com/idancali/react-chunky-cli.git"
   },
-  "bin": {
-    "chunky": ".bin/slana"
+  "scripts": {
+    "postinstall": "slana"
   },
   "author": "I. Dan Calinescu <idancalinescu@gmail.com>",
   "license": "MIT",
