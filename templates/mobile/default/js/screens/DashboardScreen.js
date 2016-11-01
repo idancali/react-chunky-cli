@@ -5,7 +5,6 @@ import {
   BackAndroid,
 } from 'react-native';
 import * as Images    from '../images';
-import { MenuScreen } from '..';
 import { Styles }     from '../styles';
 import { Strings }    from '../strings';
 import {
