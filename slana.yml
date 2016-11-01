@@ -1,0 +1,12 @@
+name: chunky
+commands:
+  - name: init
+    description: create a new React app
+    executor: exec/init
+    options:
+    - name: name
+      description: the application name
+      type: string
+    - name: native
+      description: create a React Native app
+      type: boolean
