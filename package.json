@@ -1,6 +1,6 @@
 {
   "name": "react-chunky-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The React Chunky Command-Line Tool",
   "preferGlobal": true,
   "repository": {
@@ -8,7 +8,7 @@
     "url": "git+https://github.com/idancali/react-chunky-cli.git"
   },
   "bin": {
-    "chunky": "./bin/slana"
+    "chunky": ".bin/slana"
   },
   "author": "I. Dan Calinescu <idancalinescu@gmail.com>",
   "license": "MIT",
