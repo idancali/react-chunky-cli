@@ -1,18 +1,18 @@
 var config       = require("../config");
 var logger       = require("../lib/logger");
 var generator    = require("../lib/generator");
+var runner       = require("../lib/runner");
 
 function createWebApp(name) {
-  // logger.info("Creating React Web app", name)
-  // generator.createFromTemplate("web/default", { name })
-  // logger.done("Done")
   throw new Error("Cannot create web apps - just yet. Stay tuned. Use --native to create a mobile app.")
 }
 
 function createMobileApp(name) {
-  logger.info("Creating React Native app", name)
+  logger.info("Initializing mobile app", name)
   generator.createFromTemplate("mobile/default", { name })
-  logger.done("Done")
+  logger.done("↳ Done")
+  logger.info("Installing React Native Chunky")
+  runner.npmInstall("react-native-chunky", name)
 }
 
 function parseCommand(command) {
