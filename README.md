@@ -34,6 +34,22 @@ If you want to create a React Native app instead, add the ```--native``` flag:
 chunky init --native --name MyApp
 ```
 
+# Starting Your App
+
+Great, you should now find a newly created ```MyApp``` directory in your current working path. Go ahead and look through it:
+
+```javascript
+cd MyApp
+```
+
+To start your app up with all its underlaying dependencies, simply call Chunky with the platform you desire to start.
+
+To start your iOS app, for example:
+
+```javascript
+chunky ios
+```
+
 # Writing Chunks
 
 After creating your React Chunky app as shown above, you should be ready to write some Chunks. Have a look at [Writing A Real-World Chunk](https://github.com/idancali/react-chunky#writing-a-real-world-chunk) for more details on what constitutes a full-blown Chunk.

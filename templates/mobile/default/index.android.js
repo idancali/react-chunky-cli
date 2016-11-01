@@ -5,7 +5,7 @@ import {
     Styles as styles
 } from './js/styles'
 import {
-    START_ROUTE
+    LOADING_ROUTE
 } from './js/routes'
 import * as config from './js/config'
 import {
@@ -14,7 +14,7 @@ import {
 
 renderApp({
     name: '<%= name %>',
-    initialRoute: START_ROUTE,
+    initialRoute: LOADING_ROUTE,
     reducers,
     styles,
     config
